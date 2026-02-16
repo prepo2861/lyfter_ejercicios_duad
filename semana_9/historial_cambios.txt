@@ -1,19 +1,32 @@
-PS C:\Lyfter\lyfter_ejercicios_duad> git log
-commit b016266ee1499dceaf623b25461429bdff1c4083 (HEAD -> past-exercises, origin/past-exercises)
+commit d7650841fcf9214d174c970a8daab815371fa9cf (HEAD -> past-exercises, origin/past-exercises)
+Author: Roberto Ortega <papoloc20078@hotmail.com>
+Date:   Mon Feb 16 14:50:38 2026 -0600
+
+    Se actualizan los ejercicios de semana 1 a semana 3 con las instrucciones que me dio el instructor
+
+commit b016266ee1499dceaf623b25461429bdff1c4083 (main)
 Author: Roberto Ortega <papoloc20078@hotmail.com>
 Date:   Mon Feb 9 14:50:00 2026 -0600
 
     Added past exercises
 
-commit 49c4273d12d35add57091a4cdbcf0e6fe6484c88 (origin/main, origin/HEAD, main)
+commit 49c4273d12d35add57091a4cdbcf0e6fe6484c88 (origin/main, origin/HEAD)
 Author: prepo2861 <52223333+prepo2861@users.noreply.github.com>
 Date:   Mon Feb 9 14:37:52 2026 -0600
 
     Initial commit
 
 
+1- En el primer commit, ¿Qué cambió?
 
-1- En el primer commit,  ¿Qué cambió?
+Se agregaron los cambios en las carpetas de semana 1 a semana 3 cambiando el formato de los archivos word a pdf y los archivos que tenían carpeta comprimida, fueron descomprimidos.
+
+¿Por qué se hizo ese cambio?
+
+Se hace este cambio siguiendo las instrucciones del instructor de Lyfter ya que se debe presentar los archivos de la manera mas sencilla de acceder y a la vez de manera mas profesional.
+
+
+2- En el segundo commit,  ¿Qué cambió?
 
 Se agregaron al repositorio las carpetas y archivos correspondientes a los ejercicios desde la semana 1 hasta la semana 8, organizados dentro del branch past-exercises.
 
@@ -22,7 +35,7 @@ Se agregaron al repositorio las carpetas y archivos correspondientes a los ejerc
 Para centralizar y versionar los ejercicios anteriores, cumpliendo con la instrucción del ejercicio 1 de la semana 9, que solicita subir todo el contenido previo en un branch independiente.
 
 
-2- En el segundo commit, ¿Qué cambió?
+3- En el tercer commit, ¿Qué cambió?
 
 Se creó la estructura inicial del repositorio, estableciendo el branch principal (main) con los archivos base del proyecto.
 
