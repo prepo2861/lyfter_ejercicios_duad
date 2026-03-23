@@ -234,27 +234,36 @@ def show_students_top(students, top_n=3):
 
 def get_class_average(students):
 
-        if not students:
-            print("No students registered.")
-            return
+    # Check if the list is empty
+    if not students:
+        print("No students registered.")
+        return
 
-        total_avg = 0
+    # Variable to accumulate the average of each student
+    total_avg = 0
 
-        for student in students:
-            avg = (
-                student["spanish_score"] +
-                student["english_score"] +
-                student["social_studies_score"] +
-                student["science_score"]
-            ) / 4
+    # Loop through each student in the list
+    for student in students:
 
-            total_avg += avg
+        # Calculate the individual average for the student
+        avg = (
+            student["spanish_score"] +
+            student["english_score"] +
+            student["social_studies_score"] +
+            student["science_score"]
+        ) / 4
 
-        class_avg = total_avg / len(students)
+        # Add the student's average to the total
+        total_avg += avg
 
-        print(f"Class average: {class_avg:.2f}")
+    # Calculate the overall class average
+    class_avg = total_avg / len(students)
 
-        input("\nPress Enter to return to menu...")
+    # Display the result formatted to 2 decimal places
+    print(f"Class average: {class_avg:.2f}")
+
+    # Pause execution to allow the user to read the result
+    input("\nPress Enter to return to menu...")
 
 
 def delete_students(students):
