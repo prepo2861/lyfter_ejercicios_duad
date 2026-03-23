@@ -4,7 +4,7 @@ Here we control the main flow and user interaction.
 """
 
 from menu import menu_option  # Function that displays the menu and returns the chosen option
-from actions import add_student, show_students, show_students_top, show_students_average, show_failed_students, delete_students
+from actions import add_student, show_students, show_students_top, get_class_average, show_failed_students, delete_students
 # Import of all functions related to student operations
 
 from data import export_students_data, import_students_data
@@ -37,7 +37,7 @@ def main():
 
         elif option == 4:
             # Show the average score for each student
-            show_students_average(students)
+            get_class_average(students)
 
         elif option == 5:
             # Show failed students (any grade below 60)
